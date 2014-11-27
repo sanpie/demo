@@ -22,10 +22,10 @@ public class MainActivity extends Activity {
 		((TextView) findViewById(R.id.page_header)).setText("Main Activty");
 		 App42API.initialize(
 	                this,
-	                "<843d02f836f34de72e195cd550223c41cc3e3b823d3813012103109765814caf>",
-	                "<a1e0c480942473bc56aa95e778b997949f641df747d36cf5ac32ef155f07a5ef>");
+	                "843d02f836f34de72e195cd550223c41cc3e3b823d3813012103109765814caf",
+	                "a1e0c480942473bc56aa95e778b997949f641df747d36cf5ac32ef155f07a5ef");
 	        App42API.setLoggedInUser("adarsh.agrawal862@gmail.com") ;
-	        Util.registerWithApp42("638278271530 ");
+	        Util.registerWithApp42("638278271530");
 		
 	}
 
